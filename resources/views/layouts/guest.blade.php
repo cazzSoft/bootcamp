@@ -13,7 +13,7 @@
 
         <!-- Scripts -->
          <!-- @vite(['resources/css/app.css', 'resources/js/app.js'])-->
-        @vite([secure_asset('resources/css/app.css'), secure_asset('resources/js/app.js')])
+         @vite([asset('resources/css/app.css'), secure_asset('resources/js/app.js')])
 
     </head>
     <body class="font-sans text-gray-900 antialiased">
